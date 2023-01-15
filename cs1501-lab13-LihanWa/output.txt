@@ -1,0 +1,784 @@
+> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data1.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 2
+Pittsburgh: Erie(10.0 passengers) Altoona(5.0 passengers) 
+Erie: Pittsburgh(0.0 passengers) Altoona(10.0 passengers) Johnstown(5.0 passengers)      
+Altoona: Pittsburgh(0.0 passengers) Erie(0.0 passengers) Johnstown(10.0 passengers) 
+Johnstown: Erie(0.0 passengers) Altoona(0.0 passengers)
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Pittsburgh
+2: Erie
+3: Altoona
+4: Johnstown
+Please enter source city (1-4): 1
+Please enter sink city (1-4): 4
+Augmenting Path (in reverse): 3, 1, 0 : 5.0
+Augmenting Path (in reverse): 3, 2, 0 : 5.0
+Augmenting Path (in reverse): 3, 2, 1, 0 : 5.0
+The maximum flow from Pittsburgh to Johnstown is: 15 passengers
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> javac *.java      
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data1.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 2
+Pittsburgh: Erie(10.0 passengers) Altoona(5.0 passengers) 
+Erie: Altoona(10.0 passengers) Johnstown(5.0 passengers)
+Altoona: Johnstown(10.0 passengers)
+Johnstown:
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> javac *.java      
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data2.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 2
+Berlin: London(7.0 passengers) Paris(3.0 passengers) 
+London: NewYork(1.0 passengers) Tokyo(1.0 passengers)
+NewYork: Paris(1.0 passengers) Sydney(5.0 passengers)
+Paris: London(6.0 passengers) Tokyo(3.0 passengers)
+Tokyo: Sydney(4.0 passengers)
+Sydney:
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Berlin
+2: London
+3: NewYork
+4: Paris
+5: Tokyo
+6: Sydney
+Please enter source city (1-6): Berlin
+        at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+        at java.base/java.lang.Integer.parseInt(Integer.java:652)
+        at java.base/java.lang.Integer.parseInt(Integer.java:770)
+        at AirlineSystem.maxFlow(AirlineSystem.java:114)
+        at AirlineSystem.main(AirlineSystem.java:30)
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data2.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Berlin
+2: London
+3: NewYork
+4: Paris
+5: Tokyo
+6: Sydney
+Please enter source city (1-6): 1
+Please enter sink city (1-6): 6
+Augmenting Path (in reverse): 5, 2, 1, 0 : 1.0
+Augmenting Path (in reverse): 5, 4, 1, 0 : 1.0
+Augmenting Path (in reverse): 5, 4, 3, 0 : 3.0
+The maximum flow from Berlin to Sydney is: 5 passengers
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> javac *.java      
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data2.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Berlin
+2: London
+3: NewYork
+4: Paris
+5: Tokyo
+6: Sydney
+Please enter source city (1-6): 1
+Please enter sink city (1-6): 6
+Augmenting Path (in reverse): Sydney, NewYork, London, 0 : 1.0
+Augmenting Path (in reverse): Sydney, Tokyo, London, 0 : 1.0
+Augmenting Path (in reverse): Sydney, Tokyo, Paris, 0 : 3.0
+The maximum flow from Berlin to Sydney is: 5 passengers
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> javac *.java      
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data2.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Berlin
+2: London
+3: NewYork
+4: Paris
+5: Tokyo
+6: Sydney
+Please enter source city (1-6): 1
+Please enter sink city (1-6): 6
+Augmenting Path (in reverse): Sydney, NewYork, London, Berlin : 1.0
+Augmenting Path (in reverse): Sydney, Tokyo, London, Berlin : 1.0
+Augmenting Path (in reverse): Sydney, Tokyo, Paris, Berlin : 3.0
+The maximum flow from Berlin to Sydney is: 5 passengers
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data3.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 2
+Berlin: London(1000.0 passengers) NewYork(1000.0 passengers) 
+London: Paris(1000.0 passengers) NewYork(1.0 passengers)
+NewYork: Paris(1000.0 passengers)
+Paris:
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Berlin
+2: London
+3: NewYork
+4: Paris
+Please enter source city (1-4): 1
+Please enter sink city (1-4): 4
+Augmenting Path (in reverse): Paris, London, Berlin : 1000.0
+Augmenting Path (in reverse): Paris, NewYork, Berlin : 1000.0
+The maximum flow from Berlin to Paris is: 2000 passengers
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data4.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: s
+2: a
+3: b
+4: c
+5: d
+6: e
+7: f
+8: g
+9: h
+10: t
+Please enter source city (1-10): 1 
+Please enter sink city (1-10): 10
+Augmenting Path (in reverse): t, e, a, s : 1.0
+Augmenting Path (in reverse): t, h, c, s : 10.0
+Augmenting Path (in reverse): t, f, d, a, s : 1.0
+Augmenting Path (in reverse): t, f, d, b, s : 2.0
+Augmenting Path (in reverse): t, h, d, b, s : 1.0
+Augmenting Path (in reverse): t, e, g, b, s : 10.0
+The maximum flow from s to t is: 25 passengers
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow>
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data5.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: s
+2: a
+3: b
+4: c
+5: d
+6: e
+7: t
+Please enter source city (1-7): 1
+Please enter sink city (1-7): 7
+Augmenting Path (in reverse): t, e, d, s : 12.0
+Augmenting Path (in reverse): t, c, d, s : 7.0
+Augmenting Path (in reverse): t, c, d, a, s : 3.0
+Augmenting Path (in reverse): t, e, c, b, a, s : 5.0
+The maximum flow from s to t is: 27 passengers
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data4.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: s
+2: a
+3: b
+4: c
+5: d
+6: e
+7: f
+8: g
+9: h
+10: t
+Please enter source city (1-10): 1
+Please enter sink city (1-10): 10
+Augmenting Path (in reverse): t, e, a, s : 1.0
+Augmenting Path (in reverse): t, h, c, s : 10.0
+Augmenting Path (in reverse): t, f, d, a, s : 1.0
+Augmenting Path (in reverse): t, f, d, b, s : 2.0
+Augmenting Path (in reverse): t, h, d, b, s : 1.0
+Augmenting Path (in reverse): t, e, g, b, s : 10.0
+The maximum flow from s to t is: 25 passengers
+Please press ENTER to continue ...
+*********************************
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data4.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: s
+2: a
+3: b
+4: c
+5: d
+6: e
+7: f
+8: g
+9: h
+10: t
+Please enter source city (1-10): 1
+Please enter sink city (1-10): 10
+Augmenting Path (in reverse): t, e, a, s : 1.0
+Augmenting Path (in reverse): t, h, c, s : 10.0
+Augmenting Path (in reverse): t, f, d, a, s : 2.0
+Augmenting Path (in reverse): t, f, d, b, s : 1.0
+Augmenting Path (in reverse): t, h, d, b, s : 2.0
+Augmenting Path (in reverse): t, e, g, b, s : 10.0
+The maximum flow from s to t is: 26 passengers
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data4.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: s
+2: a
+3: b
+4: c
+5: d
+6: e
+7: f
+8: g
+9: h
+10: t
+Please enter source city (1-10): 1
+Please enter sink city (1-10): 10
+Augmenting Path (in reverse): t, e, a, s : 1.0
+Augmenting Path (in reverse): t, h, c, s : 10.0
+Augmenting Path (in reverse): t, f, d, a, s : 2.0
+Augmenting Path (in reverse): t, f, d, b, s : 1.0
+Augmenting Path (in reverse): t, h, d, b, s : 2.0
+Augmenting Path (in reverse): t, e, g, b, s : 10.0
+Augmenting Path (in reverse): t, h, g, b, s : 1.0
+The maximum flow from s to t is: 27 passengers
+Please press ENTER to continue ...
+*********************************
+PS C:\Users\KSM73\OneDrive - University of Pittsburgh\CS1501-Materials\Labs\Lab 13 - Network Flow> java AirlineSystem
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data1.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 2
+Pittsburgh: Erie(10.0 passengers) Altoona(5.0 passengers) 
+Erie: Altoona(10.0 passengers) Johnstown(5.0 passengers)
+Altoona: Johnstown(10.0 passengers)
+Johnstown:
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Pittsburgh
+2: Erie
+3: Altoona
+4: Johnstown
+Please enter source city (1-4): 1
+Please enter sink city (1-4): 4
+Augmenting Path (in reverse): Johnstown, Erie, Pittsburgh : 5.0
+Augmenting Path (in reverse): Johnstown, Altoona, Pittsburgh : 5.0
+Augmenting Path (in reverse): Johnstown, Altoona, Erie, Pittsburgh : 5.0
+The maximum flow from Pittsburgh to Johnstown is: 15 passengers
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data2.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 2
+Berlin: London(7.0 passengers) Paris(3.0 passengers) 
+London: NewYork(1.0 passengers) Tokyo(1.0 passengers)
+NewYork: Paris(1.0 passengers) Sydney(5.0 passengers)
+Paris: London(6.0 passengers) Tokyo(3.0 passengers)
+Tokyo: Sydney(4.0 passengers)
+Sydney:
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Berlin
+2: London
+3: NewYork
+4: Paris
+5: Tokyo
+6: Sydney
+Please enter source city (1-6): 1
+Please enter sink city (1-6): 6
+Augmenting Path (in reverse): Sydney, NewYork, London, Berlin : 1.0
+Augmenting Path (in reverse): Sydney, Tokyo, London, Berlin : 1.0
+Augmenting Path (in reverse): Sydney, Tokyo, Paris, Berlin : 3.0
+The maximum flow from Berlin to Sydney is: 5 passengers
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data3.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 2
+Berlin: London(1000.0 passengers) NewYork(1000.0 passengers) 
+London: Paris(1000.0 passengers) NewYork(1.0 passengers)
+NewYork: Paris(1000.0 passengers)
+Paris:
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: Berlin
+2: London
+3: NewYork
+4: Paris
+Please enter source city (1-4): 1
+Please enter sink city (1-4): 4
+Augmenting Path (in reverse): Paris, London, Berlin : 1000.0
+Augmenting Path (in reverse): Paris, NewYork, Berlin : 1000.0
+The maximum flow from Berlin to Paris is: 2000 passengers
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data4.txt
+Data imported successfully.
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 2
+s: a(20.0 passengers) b(20.0 passengers) c(20.0 passengers) 
+a: e(1.0 passengers) d(2.0 passengers)
+b: d(3.0 passengers) g(20.0 passengers)
+c: g(5.0 passengers) h(10.0 passengers)
+d: f(10.0 passengers) h(40.0 passengers)
+e: t(30.0 passengers)
+f: t(3.0 passengers)
+g: e(10.0 passengers) f(5.0 passengers) h(1.0 passengers)
+h: t(20.0 passengers)
+t:
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: s
+2: a
+3: b
+4: c
+5: d
+6: e
+7: f
+8: g
+9: h
+10: t
+Please enter source city (1-10): 1
+Please enter sink city (1-10): 10
+Augmenting Path (in reverse): t, e, a, s : 1.0
+Augmenting Path (in reverse): t, h, c, s : 10.0
+Augmenting Path (in reverse): t, f, d, a, s : 2.0
+Augmenting Path (in reverse): t, f, d, b, s : 1.0
+Augmenting Path (in reverse): t, h, d, b, s : 2.0
+Augmenting Path (in reverse): t, e, g, b, s : 10.0
+Augmenting Path (in reverse): t, h, g, b, s : 1.0
+The maximum flow from s to t is: 27 passengers
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 1
+Please enter graph filename:
+data5.txt
+Data imported successfully.
+Please press ENTER to continue ...2
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 
+s: a(10.0 passengers) d(19.0 passengers) 
+a: d(9.0 passengers) b(8.0 passengers)
+b: c(5.0 passengers)
+c: t(10.0 passengers) e(8.0 passengers)
+d: b(7.0 passengers) e(12.0 passengers) c(10.0 passengers)
+e: t(19.0 passengers)
+t:
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 3
+1: s
+2: a
+3: b
+4: c
+5: d
+6: e
+7: t
+Please enter source city (1-7): 1
+Please enter sink city (1-7): 7
+Augmenting Path (in reverse): t, e, d, s : 12.0
+Augmenting Path (in reverse): t, c, d, s : 7.0
+Augmenting Path (in reverse): t, c, d, a, s : 3.0
+Augmenting Path (in reverse): t, e, c, b, a, s : 5.0
+The maximum flow from s to t is: 27 passengers
+Please press ENTER to continue ...
+*********************************
+Welcome to FifteenO'One Airlines!
+1. Read data from a file.
+2. Display all routes.
+3. Compute maximum flow between two cities
+4. Exit.
+*********************************
+Please choose a menu option (1-4): 4
